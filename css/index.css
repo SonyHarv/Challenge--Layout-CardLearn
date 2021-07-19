@@ -1,7 +1,10 @@
-.root{
+@import "./image.css";
+@import "./description.css";
+.root {
   font-size: 16px;
-}
-
-h1{
-  color: blue;
+  --white: #ffffff;
+  --white20: #e6d7d7;
+  --baseFontFamily: arial;
+  --title: bold 2rem / normal var(--baseFontFamily);
+  --content: normal 1rem / normal var(--baseFontFamily);
 }
