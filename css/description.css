@@ -1,0 +1,12 @@
+.description {
+  /* border: 2px solid red; */
+  margin: 0;
+  grid-area: tres;
+  /* grid-column: -2/-1; */
+}
+
+.description p {
+  color: var(--white20);
+  font: var(--content);
+  margin: 0;
+}

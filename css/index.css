@@ -1,10 +1,10 @@
-@import "./image.css";
-@import "./description.css";
-.root {
+@import "./container.css";
+
+:root {
   font-size: 16px;
   --white: #ffffff;
   --white20: #e6d7d7;
-  --baseFontFamily: arial;
+  --baseFontFamily: Montserrat, system-ui, sans-serif;
   --title: bold 2rem / normal var(--baseFontFamily);
   --content: normal 1rem / normal var(--baseFontFamily);
 }
