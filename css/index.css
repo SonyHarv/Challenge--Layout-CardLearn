@@ -1,10 +1,16 @@
 @import "./container.css";
 
 :root {
-  font-size: 16px;
+  font-size: 15px;
   --white: #ffffff;
   --white20: #e6d7d7;
   --baseFontFamily: Montserrat, system-ui, sans-serif;
   --title: bold 2rem / normal var(--baseFontFamily);
   --content: normal 1rem / normal var(--baseFontFamily);
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    font-size: 16px;
+  }
 }
